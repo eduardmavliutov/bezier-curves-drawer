@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bezier Curves Drawer</title>
+</head>
+<body>
+  <header>
+    <h1>Bezier Curves Drawer</h1>
+  </header>
+  <main>
+    <svg id="svg-container" viewPort="0 0 500 500" width="800" height="600">
+    </svg>
+    <label for="points-amount-box">Control points:
+      <select id="points-amount-box" name="points-amount-box">
+        <option value="2" selected>2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </label>
+    <div id="points-panel">
+    </div>
+  </main>
+</body>
+</html>
